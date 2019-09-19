@@ -63,7 +63,7 @@ namespace Lab01
 ➢ รันโปรแกรมและบันทึกผล
 
 
-<p align="center">  <img src="./images/A1.PNG"> </p>
+<p align="center">  <img src="./images/A1.png"> </p>
 
 
 
