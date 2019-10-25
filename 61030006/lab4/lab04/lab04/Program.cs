@@ -11,13 +11,12 @@ namespace lab04
         static void Main(string[] args)
         {
             int n = 123456789;
-            Console.WriteLine("{0, 0:E}", n);
-            Console.WriteLine("{0, 0:F}", n);
-            Console.WriteLine("{0, 0:G}", n);
-            Console.WriteLine("{0, 0:N}", n);
-            Console.WriteLine("{0, 0:P}", n);
-            Console.WriteLine("{0, 0:X}", n);
-
+            Console.WriteLine("{0, 20:E}", 1);
+            Console.WriteLine("{0, 20:F}", 1);
+            Console.WriteLine("{0, 20:G}", 1);
+            Console.WriteLine("{0, 20:N}", 1);
+            Console.WriteLine("{0, 20:P}", 1);
+            Console.WriteLine("{0, 20:X}", 1);
 
         }
     }
