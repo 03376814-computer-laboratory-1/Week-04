@@ -10,13 +10,15 @@ namespace lab04
     {
         static void Main(string[] args)
         {
-            int a, b, c, d, e, f;
-            a = 1;
-            b = a + 6;
-            c = b - 3;
-            d = c * 2;
-            e = d / 2;
-            f = e % 2;
+            const double lightSpeed = 186000d;   // miles per second
+            Console.WriteLine("Light speed = {0} Mile Per second", lightSpeed);
+            const double mileTokm = 1.609344;
+            Console.WriteLine("Light speed = {0} km Per second", lightSpeed * mileTokm);
+            const double SunToEarthDistance = 93000000d;  // miles
+            Console.WriteLine("SunToEarthDistance = {0} km", SunToEarthDistance * mileTokm);
+            double SunToEarthTimeOfLight = SunToEarthDistance / lightSpeed;  // miles
+            Console.WriteLine("SunToEarthTimeOfLight = {0} seconds", SunToEarthTimeOfLight);
+            Console.WriteLine("SunToEarthTimeOfLight = {0} minutes", SunToEarthTimeOfLight / 60d); ;
         }
     }
 }
