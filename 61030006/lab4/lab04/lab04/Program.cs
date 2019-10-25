@@ -10,11 +10,18 @@ namespace lab04
     {
         static void Main(string[] args)
         {
-            string str;
-            Console.Write("Please enter value 1 : ");
-            int val1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(val1);
+            try
+            {
+                Console.Write("Please enter value 1 :");
+                int val1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Please enter value 2 :");
+                int val2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Answer = " + (val1 + val2));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error : " + e.ToString());
 
-        }
+            }
     }
 }
