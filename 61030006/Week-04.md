@@ -65,7 +65,7 @@ namespace Lab01
 
 
 
-![](61030006/photo/1.PNG)
+![](photo/1.JPG)
 
 
 
@@ -88,7 +88,7 @@ namespace Lab01
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
-![](61030006/photo/2.PNG)
+![](photo/2.JPG)
 
 
  
@@ -130,7 +130,7 @@ namespace Lab01
 
  
 
-![](61030006/photo/3.PNG)
+![](photo/3.JPG)
 
 
 
@@ -155,7 +155,7 @@ namespace Lab01
 
  
 
-![](61030006/photo/4.PNG)
+![](photo/4.JPG)
 
 
 
@@ -196,7 +196,7 @@ namespace Lab01
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
-![](61030006/photo/5.PNG)
+![](photo/5.JPG)
  
 👉 แก้โปรแกรมตามรูปด้านล่างนี้
 
@@ -216,7 +216,7 @@ namespace Lab01
 
 ➢ รันโปรแกรมและบันทึกผล
 
- ![](61030006/photo/6.PNG)
+ ![](photo/6.JPG)
 
 เช่น Console.WriteLine({0} {1} {2} ,1,2,3)
 
@@ -251,7 +251,7 @@ namespace Lab01
 
  
 
-![](61030006/photo/7.PNG)
+![](photo/7.JPG)
 
 
 
@@ -287,7 +287,7 @@ namespace Lab01
 
  
 
-![](61030006/photo/8.PNG)
+![](photo/8.JPG)
 
 
 
@@ -329,7 +329,7 @@ namespace Lab01
 
  
 
-![](61030006/photo/9.PNG)
+![](photo/9.JPG)
 
 
 
@@ -362,7 +362,7 @@ namespace Lab01
 
  
 
-![](61030006/photo/10.PNG)
+![](photo/10.JPG)
 
 
 
@@ -395,7 +395,7 @@ namespace Lab01
 
 
 
-![](61030006/photo/11.PNG)
+![](photo/11.JPG)
 
 
 
@@ -407,23 +407,17 @@ namespace Lab01
     Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name));
 ```
 ```Text
+
    Hello there. I said Hello! Hello???
-``` 
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/12.PNG)
+```
 
 ``` csharp
-
-
-
-
 2. Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);
 ```
 ```Text
    3 2 1
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/13.PNG)
+
 
 ``` csharp
 3. Console.WriteLine("Hello " + "World");
@@ -431,8 +425,7 @@ namespace Lab01
 ```Text
    Hello World
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/14.PNG)
+
 
 ``` csharp
 4. Console.WriteLine("Here comes a slash \\");
@@ -440,8 +433,7 @@ namespace Lab01
 ```Text
    Here comes a slash \\
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/15.PNG)
+
 
 ``` csharp
 5. Console.WriteLine("|{0, 10}|", 999);
@@ -449,17 +441,15 @@ namespace Lab01
 ```Text
    |        999|
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/16PNG)
+
 
 ``` csharp
 6. Console.WriteLine("|{0,-10}|", 000);
 ```
 ```Text
    |000       |
-``
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/17.PNG)`
+```
+
 
 ``` csharp
 7. Console.WriteLine("The value: {0}.", 500);
@@ -467,8 +457,7 @@ namespace Lab01
 ```Text
    The value: 500
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/18.PNG)
+
 
 ``` csharp
 8. Console.WriteLine("The value: {0:C}.", 500);
@@ -476,8 +465,7 @@ namespace Lab01
 ```Text
    The value  : $500
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/19.PNG)
+
 
 ``` csharp
 9. Console.WriteLine("{0,-10:F4}", 12.3456789);
@@ -485,8 +473,6 @@ namespace Lab01
 ```Text
    12.3457
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/20.PNG)
 
 ``` csharp
 10. Console.WriteLine("{0,-10:C}", 12.3456789);
@@ -494,8 +480,7 @@ namespace Lab01
 ```Text
    $12.35
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/21.PNG)
+
 
 ``` csharp
 11. Console.WriteLine("{0,-10:E3}", 12.3456789);
@@ -503,8 +488,7 @@ namespace Lab01
 ```Text
    1.235E+001
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/22.PNG)
+
 
 ``` csharp
 12. Console.WriteLine("{0,-10:x}", 65535);  // (x = lower case)
@@ -512,8 +496,7 @@ namespace Lab01
 ```Text
    ffff
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/23.PNG)
+
 
 ``` csharp
 13. Console.WriteLine("{0,-10:X}", 65535);  // (X = upper case)
@@ -521,8 +504,7 @@ namespace Lab01
 ```Text
    FFFF
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/24.PNG)
+
 
 ``` csharp
 14. int i;
@@ -543,8 +525,7 @@ namespace Lab01
        9       81      729
 
 ```
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/25.PNG)
+
 
 ``` csharp
 15. Console.WriteLine("{0:#.###}.", 1234.56789);
@@ -553,8 +534,7 @@ namespace Lab01
 ```Text
    1234.568.
 ``` 
-➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/26.PNG)
+
 
 ## การใช้งานคำสั่ง Console.Read() และ Console.ReadLine()
 
@@ -588,7 +568,7 @@ namespace Lab01
  
 
 
-![](61030059/imager/27.PNG)
+![](photo/12.JPG)
 
 
 
@@ -599,7 +579,7 @@ namespace Lab01
 
 จะแสดงตัวอักษร ตัวแรกเท่านั้น เนื่องจากตัวแปร เป็นชนิด char 
 
-![](61030059/imager/28.PNG)
+
 
 ```
 
@@ -638,7 +618,7 @@ namespace Lab01
  
 
 
-![](/61030059/imager/29.PNG)
+![](photo/13.JPG)
 
 
  
@@ -670,7 +650,7 @@ namespace Lab01
 
  
 
-![](/61030059/imager/30.PNG)
+![](photo/14.JPG)
 
 
 
@@ -721,7 +701,7 @@ namespace Lab01
 
 
 
-![](61030059/imager/31.PNG)
+![](photo/15.JPG)
 
 
 
@@ -743,7 +723,8 @@ namespace Lab01
 ``GPA :`` (ป้อนเกรดเฉลี่ยนักศึกษา โดยมีทศนิยมสองหลัก)  
 
 ➢ รันโปรแกรมและบันทึกผล
-![](61030059/imager/1-1.PNG)
+![](photo/16.JPG)
+![](photo/17.JPG)
 
 ## การตั้งชื่อตัวแปรในภาษา C\#
 
@@ -768,7 +749,7 @@ namespace Lab01
 ---ผลการทดลอง
 
 
-![](61030059/imager/1-1.PNG)
+
 
 
 
@@ -819,7 +800,7 @@ Console.WriteLine("Maximum Value :" + (int) char.MaxValue);
 ```
 ---ผลการทดลอง`byte`
 
-![](61030059/imager/2-byte.PNG)
+
 
 
 
@@ -903,7 +884,7 @@ namespace RandomNumber
     }
 }
 ```
-![](61030059/imager/3-nume.PNG)
+![](photo/19.JPG)
 
 ## 14. การใช้งานข้อมูลชนิด boolean (1)
 
@@ -991,31 +972,18 @@ namespace thruthTable
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
-
+![](photo/20.JPG)
  
 
 
-![](61030059/imager/6-1.PNG)
 
 
  
 👷 ให้เขียนโปรแกรมเพื่อสร้างตารางความจริงของลอจิกดังต่อไปนี้
 
 1. `AND`
-2. `OR`
-3. `NOT`
-4. `NAND`
-5. `NOR`
-6. `Exclusive OR`
-
 ```csharp
-using System;
-public class intergerTest
-{
-    static void Main(string[] args)
-    {
-        bool A, B, Y;
-            Console.WriteLine("      Y = A AND B");
+             Console.WriteLine("      Y = A AND B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A      B\t|  Y");
             Console.WriteLine("-----------------------");
@@ -1028,7 +996,11 @@ public class intergerTest
             A = true; B = true; Y = A & B;
             Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
             Console.WriteLine("-----------------------");
-            Console.WriteLine("\n      Y = A OR B");
+```
+
+2. `OR`
+```csharp
+             Console.WriteLine("\n      Y = A OR B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A      B\t|  Y");
             Console.WriteLine("-----------------------");
@@ -1041,6 +1013,10 @@ public class intergerTest
             A = true; B = true; Y = A | B;
             Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
             Console.WriteLine("-----------------------");
+```
+3. `NOT`
+```csharp
+           
             Console.WriteLine("\n      Y = A NOT B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A \t|  Y");
@@ -1050,6 +1026,10 @@ public class intergerTest
             A = true; Y = false;
             Console.WriteLine(" {0}\t| {1}", A, Y);
             Console.WriteLine("-----------------------");
+``` 
+4. `NAND`
+
+```csharp
             Console.WriteLine("      Y = A NAND B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A      B\t|  Y");
@@ -1063,6 +1043,11 @@ public class intergerTest
             A = true; B = true; Y = !(A & B);
             Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
             Console.WriteLine("-----------------------");
+```
+5. `NOR`
+
+```csharp
+            
             Console.WriteLine("\n      Y = A NOR B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A      B\t|  Y");
@@ -1076,7 +1061,10 @@ public class intergerTest
             A = true; B = true; Y = !(A | B);
             Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
             Console.WriteLine("-----------------------");
-            Console.WriteLine("      Y = A XOR B");
+```
+6. `Exclusive OR`
+```csharp
+             Console.WriteLine("      Y = A XOR B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A      B\t|  Y");
             Console.WriteLine("-----------------------");
@@ -1088,11 +1076,11 @@ public class intergerTest
             Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
             A = true; B = true; Y = A ^ B;
             Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            Console.WriteLine("-----------------------");;
             Console.WriteLine("-----------------------");
-    }
-}
 ```
-![](61030059/imager/6-2.PNG)
+
+
 
 ## ชนิดข้อมูลตัวเลขจำนวนเต็ม (Integer Types)
 
@@ -1125,7 +1113,8 @@ public class intergerTest
  
 
 
-![](61030059/imager/7-7.PNG)
+![](photo/27.JPG)
+
 
 
 
@@ -1187,7 +1176,7 @@ namespace variableProperties
  
 
 
-![](61030059/imager/9-1.PNG)
+![](photo/28.JPG)
 
 
 
@@ -1291,7 +1280,7 @@ public class MathTest
 
  
 
-![](61030059/imager/2-0.PNG)
+![](photo/29.JPG)
 
 
 
