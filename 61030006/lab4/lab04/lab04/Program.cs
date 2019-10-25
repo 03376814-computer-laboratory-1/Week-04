@@ -10,7 +10,10 @@ namespace lab04
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0,-10:X}", 65535);  // (X = upper case)
+            int i;
+            Console.WriteLine("Value\tSquared\tCubed");
+            for (i = 1; i < 10; i++)
+                Console.WriteLine("{0}\t{1}\t{2}", i, i * i, i * i * i);
         }
     }
 }
