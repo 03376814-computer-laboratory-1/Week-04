@@ -10,7 +10,16 @@ namespace lab04
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" {0} and {1}", 3, 6);
+            Console.WriteLine("00000000011111111112");
+            Console.WriteLine("12345678901234567890");
+            Console.WriteLine("{0, 0}", 1);
+            Console.WriteLine("{0, 1}", 1);
+            Console.WriteLine("{0, 2}", 1);
+            Console.WriteLine("{0, 3}", 1);
+            Console.WriteLine("{0, 5}", 1);
+            Console.WriteLine("{0, 10}", 1);
+            Console.WriteLine("{0, 15}", 1);
+            Console.WriteLine("{0, 20}", 1);
 
 
 
